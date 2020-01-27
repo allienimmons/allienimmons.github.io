@@ -14,6 +14,16 @@
 
 /* GLOBAL SETTINGS */
 
+@font-face {
+    font-family: Karla;
+    src: url(Fonts/Karla.ttf);
+  }
+
+@font-face {
+  font-family: DMSerifDisplay;
+  src: url(Fonts/DMSerifDisplay.ttf);
+}
+
 body {
     background-color:white;
 }
@@ -21,49 +31,190 @@ body {
 
 /* SECTION SETTINGS */
 
-.hero {
-    background-color: hsl(256, 26%, 20%);
+
+.bigcolumn{
+    flex:50%;
 }
 
+.smallcolumn{
+    flex:50%;
+    padding-top:40px;
+}
+
+.CTA {
+    background-color:  hsl(256, 26%, 20%);
+    display:flex;
+    padding: 80px 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin: 0 100px 50px 100px;
+}
+
+   #row {
+    background-color: hsl(256, 26%, 20%);
+    display:flex;
+    padding-left: 100px;
+}
+
+#secondrow {
+    display:flex;
+    padding: 100px 100px 40px 100px;
+    margin-bottom: 100px;
+}
+
+.different {
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+#menu {
+    Background-color: white;
+    position:relative;
+    display:block;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.menulinks {
+display:flex;
+flex-wrap:wrap;
+justify-content:flex-end;
+}
+
+.two-column {
+    flex:50%;
+    background-color:hsl(256, 26%, 20%);
+    padding-right:60px;
+}
+
+.three-column {
+    flex:33.33%;
+    padding-right:40px;
+}
+
+footer {
+    padding: 60px 100px;
+    background-color:hsl(0, 0%, 98%);
+}
+
+#footerlinks {
+    display:flex;
+    border-top: 1px solid hsl(273, 4%, 51%);
+}
+
+/* IMAGE SETTINGS */
+
+.heroimage {
+    margin: 100px auto -150px auto;
+}
+
+.menulogo{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-bottom:40px;
+    display: inline;
+}
 
 /* TYPOGRAPHY SETTINGS */
 
+.herop {
+    color:white;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+
+.menulinks {
+    display: inline-flex;
+}
 
 p {
-    font-size:16px;
-    font-family: sans-serif;
+    font-size: 16px;
     font-weight: 400;
-}
-hr {
-    width: 150px;
-    color: gray;
+    font-family: 'Karla', sans-serif;
+
 }
 
 .menulink {
     text-transform: uppercase;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: sans-serif;
-    font-weight: 400;
+h1, h2, h3, h4, h6 {
+    font-family: 'DMSerifDisplay';
+
 }
 
 h1 {
     color:white;
+    font-size:80px;
+    font-weight: 100;
+    line-height:1;
+    margin:0;
+    padding-top:40px;
 }
 
 h2 {
     color: hsl(256, 26%, 20%);
+    margin-bottom:0;
+    font-size:70px;
 }
 
 h3 {
     color: hsl(256, 26%, 20%);
+    font-size:30px;
 }
 
 h4 {
     color:white;
+    font-size:58px;
+    font-weight:100;
+    line-height:1;
+    margin:0;
 }
 
 h5 {
-    color:hsl(0, 0%, 98%);
+    color: hsl(273, 4%, 51%);
+    font-family: 'Karla', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+ul > li {
+    font-family: 'Karla', sans-serif;
+    list-style: none;
+    text-transform: uppercase;
+    line-height:2;
+    font-size:14px;
+}
+
+ul  {
+    flex:25%;
+    padding:0;
+    margin:0;
+}
+
+
+/* ELEMENT STYLES */
+
+button {
+    border-radius: 0px;
+    padding: 10px 20px;
+    border: 5 black solid;
+    background-color: hsl(256, 26%, 20%);
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
+}
+
+.ctabutton {
+    float:right;
+    margin: auto 0 auto 0;
+}
+
+hr {
+    margin-top: 100px;
+    width: 150px;
+    color: gray;
+    align:left;
 }

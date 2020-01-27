@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
@@ -10,80 +11,94 @@
   
   <title>Frontend Mentor | Insure landing page</title>
 </head>
+
 <body>
-<nav class="menu">
- <img src="/images/logo.svg" alt="Our Logo"/>
-    <a href="#" class="menulink">How We Work</a>
-    <a href="#" class="menulink">Blog</a>
-    <a href="#" class="menulink">Account</a>
-    <a href="#" class="menupop">View Plans</a>
-</nav>
-<div class="hero">
-    <hr>
-    <h1>Humanizing your insurance</h1>
-    <p>Get your life insurance coverage easier nad faster. We blend our expertise and technology to help you find the plan that's right for you. Ensure you and your loved ones are protected.</p>
-    <button>View Plans</button>
-    <img src="/images/image-intro-desktop.jpg" alt="A photo of a happy family of 4 walking together">
-</div>
-<div>
-    <hr>
-    <h2>We're different</h2>
-    <section>
-        <img src="/images/icon-snappy-process.svg" alt="lightning bolt icon">
-        <h3>Snappy Process</h3>
-        <p>Our application process can be compelted in minutes, not hours. Don't get stick filing in tedious forms.</p>
+    <nav id="menu">
+        <img src="file:///Users/allienimmons/Documents/GitHub/allienimmons.github.io/images/logo.svg" alt="Our Logo" class="menulogo"/>
+        <div class="linkcontainer">
+            <li class="menulinks"><a href="#">How We Work</a></li>
+            <li class="menulinks"><a href="#">Blog</a></li>
+            <li class="menulinks"><a href="#">Account</a></li>
+            <li class="menulinks"><a href="#">Account</a></li>
+            <li class="menulinks"><a href="#">View Plans</a></li>
+        </div>
+    </nav>
+    <section id="row">
+        <section class="two-column">
+            <hr align="left" width="50%">
+            <h1>Humanizing your insurance.</h1>
+            <p class="herop">Get your life insurance coverage easier nad faster. We blend our expertise and technology to help you find the plan that's right for you. Ensure you and your loved ones are protected.</p>
+            <button>View Plans</button>
+        </section>
+        <section class="two-column">
+            <img src="file:///Users/allienimmons/Documents/GitHub/allienimmons.github.io/images/image-intro-desktop.jpg" class="heroimage" alt="A photo of a happy family of 4 walking together">
+        </section>
     </section>
-    <section>
-        <img src="/images/icon-affordable-prices.svg" alt="dollar sign icon">
-        <h3>Affordable Prices</h3>
-        <p>We don't want you worrying about high monthly costs. Our prices may be low, but we still offer teh best coverage possible.</p>
+    <section class="different">
+        <hr align="left" width="50%">
+        <h2>We're different</h2>
     </section>
-    <section>
-        <img src="/images/icon-people-first.svg" alt="little person icon">
-        <h3>People First</h3>
-        <p>Our plans aren't full of conditions and clauses to prevent payouts. We make sure you're covered when you need it. </p>
+    <section id="secondrow">
+        <section class="three-column">
+            <img src="file:///Users/allienimmons/Documents/GitHub/allienimmons.github.io/images/icon-snappy-process.svg" alt="lightning bolt icon">
+            <h3>Snappy Process</h3>
+            <p>Our application process can be compelted in minutes, not hours. Don't get stick filing in tedious forms.</p>
+        </section>
+        <section  class="three-column">
+            <img src="file:///Users/allienimmons/Documents/GitHub/allienimmons.github.io/images/icon-affordable-prices.svg" alt="dollar sign icon">
+            <h3>Affordable Prices</h3>
+            <p>We don't want you worrying about high monthly costs. Our prices may be low, but we still offer teh best coverage possible.</p>
+        </section>
+        <section  class="three-column">
+            <img src="file:///Users/allienimmons/Documents/GitHub/allienimmons.github.io/images/icon-people-first.svg" alt="little person icon">
+            <h3>People First</h3>
+            <p>Our plans aren't full of conditions and clauses to prevent payouts. We make sure you're covered when you need it. </p>
+        </section>
     </section>
-    <section>
-        <h4>Find out more about how we work.</h4>
-        <button>How We Work</button>
+    <section class="CTA">
+        <section class="bigcolumn">
+            <h4>Find out more about how we work</h4>
+        </section>
+        <section class="smallcolumn">
+            <button class="ctabutton">How We Work</button>
+        </section>
     </section>
-</div>
 <footer>
     <section>
-        <img src="/images/logo.svg" alt="Our Logo"/>
+        <img src="file:///Users/allienimmons/Documents/GitHub/allienimmons.github.io/images/logo.svg" alt="Our Logo" class="menulogo" />
         <img src="" alt="">
         <img src="" alt="">
         <img src="" alt="">
         <img src="" alt="">
         <img src="" alt="">
-    </section>
-    <section>
-        <Div>
+    </section >
+    <section id="footerlinks">
+        <ul>
             <h5>Our company</h5>
             <li>How We work</li>
             <li>Why insure</li>
             <li>View Plans</li>
             <li>Reviews</li>
-        </Div>
-        <Div>
+        </ul>
+        <ul>
             <h5>Help Me</h5>
             <li>FAQ</li>
             <li>Terms of Use</li>
             <li>Privacy Policy</li>
             <li>Cookies</li>
-        </Div>
-        <Div>
+        </ul>
+        <ul>
             <h5>Contact</h5>
             <li>Sales</li>
             <li>Support</li>
             <li>Live chat</li>
-        </Div>
-        <Div>
+        </ul>
+        <ul>
             <h5>Others</h5>
             <li>Careers</li>
             <li>Press</li>
             <li>Licenses</li>
-        </Div>
+        </ul>
     </section>
 </footer>
 </body>
