@@ -12,6 +12,9 @@
 - Very Light Gray: hsl(0, 0%, 98%)
 */
 
+/* Try to be more consistent with the name of your class and IDs. Sometimes you use a dash to separate 2 words and something you dont. See here for some tips. 
+http://bdavidxyz.com/blog/how-to-name-css-classes/ */
+
 /* GLOBAL SETTINGS */
 
 @font-face {
